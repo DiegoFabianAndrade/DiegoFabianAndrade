@@ -17,3 +17,5 @@ body.motion-paused *,body.motion-paused *:before,body.motion-paused *:after{anim
 
 /* Mobile and compact tablet header */
 @media(max-width:820px){.topbar{height:62px;padding:0 16px;gap:12px}.main-nav{position:fixed;top:auto;bottom:0;left:0;right:0;z-index:60;display:flex;justify-content:space-around;align-items:center;gap:2px;padding:9px 5px calc(9px + env(safe-area-inset-bottom));background:#0c1625f5;border-top:1px solid #ffffff1b;backdrop-filter:blur(15px);overflow-x:auto;white-space:nowrap;scrollbar-width:none}.main-nav::-webkit-scrollbar{display:none}.main-nav a{flex:0 0 auto;font-size:clamp(7px,1.65vw,10px);white-space:nowrap}.motion-toggle{flex:0 0 auto;padding:7px}.motion-label{display:none}.hero{grid-template-columns:1fr;gap:35px;min-height:0;padding-top:59px;padding-bottom:74px}.studies-grid{grid-template-columns:1fr;gap:10px}.study-card{min-height:0;padding:18px}.footer{padding-bottom:84px}}
+
+.study-cert{display:block;margin-top:8px;font:8px var(--mono);color:#e4ce82;line-height:1.6}
