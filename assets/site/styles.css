@@ -125,3 +125,7 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 @media(max-width:680px){.contact-mascot{width:128px!important;height:128px!important}.contact-gear:after{left:14%;width:72%;bottom:20px}}
 @keyframes contact-celebi-route-mobile{0%,100%{left:3%;transform:translateY(0) scaleX(1)}43%{left:calc(97% - 128px);transform:translateY(-8px) scaleX(1)}50%{left:calc(97% - 128px);transform:translateY(-8px) scaleX(-1)}93%{left:3%;transform:translateY(0) scaleX(-1)}}
 @media(prefers-reduced-motion:reduce){.contact-gear .gear-core:before,.contact-gear .gear-core:after,.contact-gear .gear-core .mini-ball{animation-duration:4.8s!important;animation-iteration-count:infinite!important}}
+
+
+/* Preserve a very gentle contact signal for visitors who reduce motion. */
+@media(prefers-reduced-motion:reduce){.contact-gear .gear-core:before,.contact-gear .gear-core:after{animation:contact-beacon 4.8s ease-out infinite!important}.contact-gear .gear-core:after{animation-delay:2.4s!important}.contact-gear .gear-core .mini-ball{animation:contact-beacon-ball 4.8s ease-in-out infinite!important}}
