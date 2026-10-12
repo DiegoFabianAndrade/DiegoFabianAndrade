@@ -81,3 +81,9 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 @media(max-width:680px){.contact-gear{height:205px!important}.contact-mascot{width:100px!important;height:100px!important;bottom:6px!important;animation-name:contact-celebi-route-mobile!important}.analytics-top{grid-template-columns:1fr}.badge-metrics{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @keyframes contact-celebi-route-mobile{0%,100%{transform:translateX(0) translateY(0) scaleX(1)}43%{transform:translateX(calc(100% - 104px)) translateY(-10px) scaleX(1)}50%{transform:translateX(calc(100% - 104px)) translateY(-10px) scaleX(-1)}93%{transform:translateX(0) translateY(0) scaleX(-1)}}
 @media(prefers-reduced-motion:reduce){.contact-mascot,.gear-core .mini-ball{animation:none!important}}
+
+/* Match the remaining trophy metal and shine to the Poké Ball red palette. */
+.trophy-gem{background:radial-gradient(circle at 35% 30%,#ffb1b5,#df4b55 62%,#762b37)!important;border-color:#df4b55!important;color:#fff!important}
+.trophy-gem.shark{background:radial-gradient(circle at 35% 30%,#c9f9ff,#39a7c5 62%,#1d466d)!important;border-color:#8de8ff!important}
+.profile-trophy:hover{border-color:#df4b55!important}
+@keyframes medalShine{0%,100%{filter:brightness(.94) drop-shadow(0 6px 4px #0004)}50%{filter:brightness(1.14) drop-shadow(0 0 12px #df4b5555)}}
