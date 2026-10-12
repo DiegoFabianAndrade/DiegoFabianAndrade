@@ -60,7 +60,7 @@ Software Engineering student in Colombia interested in building useful products 
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" width="58" alt="Animated Pokémon" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/384.gif" width="58" alt="Shiny Rayquaza" />
 
 <img src="assets/styleai-scene.svg/styleai-scene.svg" width="100%" alt="StyleAI auto-playing pixel animation" />
 
@@ -75,7 +75,7 @@ AI outfit recommender and digital wardrobe with web app, API, and recommendation
 </td>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/81.gif" width="58" alt="Animated Pokémon" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/249.gif" width="58" alt="Shiny Lugia" />
 
 <img src="assets/blueprints-scene.svg/blueprints-scene.svg" width="100%" alt="BluePrints auto-playing pixel animation" />
 
@@ -92,7 +92,7 @@ Collaborative REST API for blueprint models, identity, redundancy, and undersamp
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif" width="58" alt="Animated Pokémon" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/150.gif" width="58" alt="Shiny Mewtwo" />
 
 <img src="assets/dosw-library-scene.svg/dosw-library-scene.svg" width="100%" alt="DOSW Library auto-playing pixel animation" />
 
@@ -107,7 +107,7 @@ Library system for books, users, and loans with relational and document persiste
 </td>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif" width="58" alt="Animated Pokémon" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/386.gif" width="58" alt="Shiny Deoxys" />
 
 <img src="assets/snakerace-scene.svg/snakerace-scene.svg" width="100%" alt="SnakeRace auto-playing pixel animation" />
 
@@ -124,7 +124,7 @@ Autonomous snake race with synchronization, concurrency, obstacles, and desktop 
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="42" alt="Pokémon companion" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="42" alt="Pokémon companion" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="42" alt="Pokémon companion" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="42" alt="Pokémon companion" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/250.gif" width="42" alt="Shiny Ho-Oh" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/245.gif" width="42" alt="Shiny Suicune" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/385.gif" width="42" alt="Shiny Jirachi" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/380.gif" width="42" alt="Shiny Latias" />
 
 <img src="assets/patricia-scene.svg/patricia-scene.svg" width="100%" alt="PATRICI.A auto-playing pixel animation" />
 
@@ -139,7 +139,7 @@ Student community platform built collaboratively; frontend contributions in the 
 </td>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif" width="58" alt="Animated Pokémon" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/shiny/487.gif" width="58" alt="Shiny Giratina" />
 
 <img src="assets/security-labs-scene.svg/security-labs-scene.svg" width="100%" alt="Security Labs auto-playing pixel animation" />
 
