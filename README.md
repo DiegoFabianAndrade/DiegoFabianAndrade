@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/pokedex-header.svg" width="100%" alt="Pokédex de Diego Andrade" />
+<img src="assets/pokedex-header.svg" width="100%" alt="Trainer profile header" />
 
 <h3>SOFTWARE DEVELOPMENT · AI / MACHINE LEARNING · COLOMBIA</h3>
 
@@ -17,6 +17,10 @@
 ## Profile <a id="profile"></a>
 
 Software Engineering student in Colombia interested in building useful products and learning through collaboration. My public projects explore frontend, backend, applied AI, concurrency, and security.
+
+## Battle Arena
+
+<img src="assets/pokemon-battle.svg/pokemon-battle.svg" width="100%" alt="Auto-playing Pokémon battle scene" />
 
 </div>
 
@@ -56,10 +60,13 @@ Software Engineering student in Colombia interested in building useful products 
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" width="62" alt="Porygon animado · StyleAI" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/137.gif" width="58" alt="Animated Pokémon" />
+
+<img src="assets/styleai-scene.svg/styleai-scene.svg" width="100%" alt="StyleAI auto-playing pixel animation" />
 
 ### StyleAI
-Outfit recommender and digital wardrobe with a web interface, API, and recommendation experiments using synthetic data.
+
+AI outfit recommender and digital wardrobe with web app, API, and recommendation experiments.
 
 **React · FastAPI · Transformers · PyTorch**
 
@@ -68,10 +75,13 @@ Outfit recommender and digital wardrobe with a web interface, API, and recommend
 </td>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/81.gif" width="62" alt="Magnemite animado · BluePrints" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/81.gif" width="58" alt="Animated Pokémon" />
+
+<img src="assets/blueprints-scene.svg/blueprints-scene.svg" width="100%" alt="BluePrints auto-playing pixel animation" />
 
 ### BluePrints
-Collaborative REST API to model and query blueprints, with identity, redundancy, and undersampling filters.
+
+Collaborative REST API for blueprint models, identity, redundancy, and undersampling filters.
 
 **Java 21 · Spring Boot · PostgreSQL · OAuth2/JWT**
 
@@ -82,10 +92,13 @@ Collaborative REST API to model and query blueprints, with identity, redundancy,
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif" width="62" alt="Abra animado · DOSW Library" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/63.gif" width="58" alt="Animated Pokémon" />
+
+<img src="assets/dosw-library-scene.svg/dosw-library-scene.svg" width="100%" alt="DOSW Library auto-playing pixel animation" />
 
 ### DOSW Library
-Books, users, and loans API with PostgreSQL/MongoDB persistence, authentication, and roles.
+
+Library system for books, users, and loans with relational and document persistence.
 
 **Java · Spring · JPA · PostgreSQL · MongoDB**
 
@@ -94,10 +107,13 @@ Books, users, and loans API with PostgreSQL/MongoDB persistence, authentication,
 </td>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif" width="62" alt="Snivy animado · SnakeRace" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/495.gif" width="58" alt="Animated Pokémon" />
+
+<img src="assets/snakerace-scene.svg/snakerace-scene.svg" width="100%" alt="SnakeRace auto-playing pixel animation" />
 
 ### SnakeRace
-Autonomous snake race with concurrency, synchronization, obstacles, and a desktop UI.
+
+Autonomous snake race with synchronization, concurrency, obstacles, and desktop UI.
 
 **Java 21 · Virtual Threads · Swing**
 
@@ -108,9 +124,12 @@ Autonomous snake race with concurrency, synchronization, obstacles, and a deskto
 <tr>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="62" alt="Eevee animado · PATRICI.A" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="42" alt="Pokémon companion" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="42" alt="Pokémon companion" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/7.gif" width="42" alt="Pokémon companion" /> <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/133.gif" width="42" alt="Pokémon companion" />
+
+<img src="assets/patricia-scene.svg/patricia-scene.svg" width="100%" alt="PATRICI.A auto-playing pixel animation" />
 
 ### PATRICI.A
+
 Student community platform built collaboratively; frontend contributions in the shared repository.
 
 **React · TypeScript · Zustand · Tailwind**
@@ -120,10 +139,13 @@ Student community platform built collaboratively; frontend contributions in the 
 </td>
 <td width="50%" align="center" valign="top">
 
-<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif" width="62" alt="Rotom animado · Security Labs" />
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/479.gif" width="58" alt="Animated Pokémon" />
+
+<img src="assets/security-labs-scene.svg/security-labs-scene.svg" width="100%" alt="Security Labs auto-playing pixel animation" />
 
 ### Security Labs
-Academic practice in hardening, traffic and log analysis, detection, and binary analysis.
+
+Academic work in hardening, traffic and log analysis, detection, and binary analysis.
 
 **Nginx · SIEM · Ghidra · GDB**
 
@@ -138,19 +160,34 @@ Academic practice in hardening, traffic and log analysis, detection, and binary 
 <details>
 <summary><b>More projects</b></summary>
 
-[ARSW · parallel π](https://github.com/DiegoFabianAndrade/ARSW) · [CNYT · complex numbers](https://github.com/DiegoFabianAndrade/Trabajo-CNYT) · [DOSW · learning log](https://github.com/DiegoFabianAndrade/BITACORA_DOSW) · [Zeus · frontend](https://github.com/DiegoFabianAndrade/Vite_Zeuz_Codensa)
+<table>
+<tr>
+<td width="50%" align="center">
+<img src="assets/arsw-scene.svg/arsw-scene.svg" width="100%" alt="ARSW · Parallel π looping animation" />
+[ARSW · Parallel π](https://github.com/DiegoFabianAndrade/ARSW)
+</td>
+<td width="50%" align="center">
+<img src="assets/cnyt-scene.svg/cnyt-scene.svg" width="100%" alt="CNYT · Complex Numbers looping animation" />
+[CNYT · Complex Numbers](https://github.com/DiegoFabianAndrade/Trabajo-CNYT)
+</td>
+</tr>
+<tr>
+<td width="50%" align="center">
+<img src="assets/bitacora-scene.svg/bitacora-scene.svg" width="100%" alt="DOSW · Learning Log looping animation" />
+[DOSW · Learning Log](https://github.com/DiegoFabianAndrade/BITACORA_DOSW)
+</td>
+<td width="50%" align="center">
+<img src="assets/zeus-scene.svg/zeus-scene.svg" width="100%" alt="Zeus · Frontend looping animation" />
+[Zeus · Frontend](https://github.com/DiegoFabianAndrade/Vite_Zeuz_Codensa)
+</td>
+</tr>
+</table>
 
 </details>
 
-</div>
-
----
-
-<div align="center">
-
 ## Bonus Stage
 
-<img src="assets/pokemon-tetris.svg" width="100%" alt="Looping falling-block pixel animation" />
+<img src="assets/pokemon-tetris.svg" width="100%" alt="Auto-playing pixel Tetris animation" />
 
 </div>
 
@@ -160,30 +197,19 @@ Academic practice in hardening, traffic and log analysis, detection, and binary 
 
 ## GitHub Analytics <a id="analytics"></a>
 
-</div>
+<a href="https://github.com/DiegoFabianAndrade"><img height="190" src="https://github-readme-stats.vercel.app/api?username=DiegoFabianAndrade&show_icons=true&include_all_commits=true&hide_border=true&bg_color=101b2d&title_color=f1c94a&icon_color=cc3948&text_color=e8f2ff&rank_icon=github" alt="GitHub stats: stars, commits, pull requests, issues, contributions" /></a> <a href="https://github.com/DiegoFabianAndrade?tab=repositories"><img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoFabianAndrade&layout=compact&langs_count=8&hide_border=true&bg_color=101b2d&title_color=f1c94a&text_color=e8f2ff" alt="Most used languages" /></a>
 
-<div align="center">
+<img src="https://streak-stats.demolab.com?user=DiegoFabianAndrade&background=101b2d&stroke=34445a&ring=cc3948&fire=f1c94a&currStreakNum=e8f2ff&sideNums=e8f2ff&currStreakLabel=58c4dd&sideLabels=e8f2ff&dates=9aa9bf&locale=es&type=png" alt="Contributions and coding streak" />
 
-<a href="https://github.com/DiegoFabianAndrade"><img height="190" src="https://github-readme-stats.vercel.app/api?username=DiegoFabianAndrade&show_icons=true&include_all_commits=true&hide_border=true&bg_color=101b2d&title_color=f1c94a&icon_color=cc3948&text_color=e8f2ff&rank_icon=github" alt="GitHub stats: stars, commits, pull requests, issues, and contributions" /></a>
-<a href="https://github.com/DiegoFabianAndrade?tab=repositories"><img height="190" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoFabianAndrade&layout=compact&langs_count=8&hide_border=true&bg_color=101b2d&title_color=f1c94a&text_color=e8f2ff" alt="Most used languages in public repositories" /></a>
-
-<img src="https://streak-stats.demolab.com?user=DiegoFabianAndrade&background=101b2d&stroke=34445a&ring=cc3948&fire=f1c94a&currStreakNum=e8f2ff&sideNums=e8f2ff&currStreakLabel=58c4dd&sideLabels=e8f2ff&dates=9aa9bf&locale=es&type=png" alt="Total contributions and current and longest streak" />
-
-<img src="https://ghchart.rshah.org/cc3948/DiegoFabianAndrade" alt="GitHub contributions heatmap for the last year" />
+<img src="https://ghchart.rshah.org/cc3948/DiegoFabianAndrade" alt="GitHub contributions heatmap" />
 
 <img src="https://trophy.ryglcloud.net/?username=DiegoFabianAndrade&theme=onedark&no-frame=true&no-bg=true&column=7" alt="GitHub profile trophies" />
 
-[Full GitHub activity](https://github.com/DiegoFabianAndrade?tab=overview) · [Repositories](https://github.com/DiegoFabianAndrade?tab=repositories)
-
-</div>
-
----
-
-<div align="center">
+[Full activity](https://github.com/DiegoFabianAndrade?tab=overview) · [Repositories](https://github.com/DiegoFabianAndrade?tab=repositories)
 
 ## Contact <a id="contact"></a>
 
-[![GitHub](https://img.shields.io/badge/GitHub-DiegoFabianAndrade-101b2d?style=for-the-badge&logo=github)](https://github.com/DiegoFabianAndrade)
+[![GitHub](https://img.shields.io/badge/GitHub-DiegoFabianAndrade-101b2d?style=for-the-badge&logo=github)](https://github.com/DiegoFabianAndrade) [![Email](https://img.shields.io/badge/Email-Contact-cc3948?style=for-the-badge&logo=gmail&logoColor=white)](mailto:diegofabian.andrade03@gmail.com) [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/diego-fabian-andrade-dur%C3%A1n-b6b55943a/)
 
 </div>
 
