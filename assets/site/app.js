@@ -1,25 +1,17 @@
-const USER = 'DiegoFabianAndrade';
+﻿const USER = 'DiegoFabianAndrade';
 const $ = (selector) => document.querySelector(selector);
 
 $('#year').textContent = new Date().getFullYear();
 
 const motionButton = $('.motion-toggle');
-const sprites = [...document.querySelectorAll('.battle-mon, .project-pokemon, .party-sprites img, .field-note img')];
 function setMotion(paused) {
   document.body.classList.toggle('motion-paused', paused);
   motionButton.setAttribute('aria-pressed', String(paused));
   motionButton.title = paused ? 'Reanudar animaciones' : 'Pausar animaciones';
   $('.motion-icon').textContent = paused ? '▶' : 'Ⅱ';
   $('.motion-label').textContent = paused ? 'Reanudar' : 'Pausar';
-  sprites.forEach((sprite) => {
-    if (!sprite.dataset.animatedSrc) sprite.dataset.animatedSrc = sprite.src;
-    sprite.src = paused
-      ? sprite.dataset.animatedSrc.replace('/animated/shiny/', '/shiny/').replace('/animated/back-shiny/', '/back-shiny/').replace(/\.gif(?:\?.*)?$/, '.png')
-      : sprite.dataset.animatedSrc;
-  });
 }
 motionButton.addEventListener('click', () => setMotion(!document.body.classList.contains('motion-paused')));
-if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) setMotion(true);
 
 const battleLines = [
   '¡Un nuevo proyecto salvaje apareció!',
