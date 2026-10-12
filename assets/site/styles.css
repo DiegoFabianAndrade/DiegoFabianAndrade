@@ -98,3 +98,18 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 @keyframes contact-celebi-route{0%,100%{left:3%;transform:translateY(0) scaleX(1)}43%{left:calc(97% - 118px);transform:translateY(-9px) scaleX(1)}50%{left:calc(97% - 118px);transform:translateY(-9px) scaleX(-1)}93%{left:3%;transform:translateY(0) scaleX(-1)}}
 @keyframes contact-celebi-route-mobile{0%,100%{left:3%;transform:translateY(0) scaleX(1)}43%{left:calc(97% - 100px);transform:translateY(-7px) scaleX(1)}50%{left:calc(97% - 100px);transform:translateY(-7px) scaleX(-1)}93%{left:3%;transform:translateY(0) scaleX(-1)}}
 @media(prefers-reduced-motion:reduce) and (max-width:680px){.contact-mascot{animation:contact-celebi-route-mobile 12s ease-in-out infinite!important}}@media(prefers-reduced-motion:reduce) and (min-width:681px){.contact-mascot{animation:contact-celebi-route 12s ease-in-out infinite!important}}
+
+/* Refined route-map backdrop: keep the contours, remove scattered pin dots. */
+body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.48;background-image:repeating-radial-gradient(ellipse at 14% 17%,transparent 0 30px,#9fb3c20d 31px 32px,transparent 33px 54px),repeating-radial-gradient(ellipse at 83% 72%,transparent 0 36px,#9fb3c210 37px 38px,transparent 39px 62px),linear-gradient(135deg,transparent 49.85%,#7890a006 50%,transparent 50.15%);background-size:470px 360px,540px 410px,90px 90px;background-position:0 0,100% 100%,0 0}
+/* Red stays the signature; use warm yellow as restrained Pokédex hardware detail. */
+.dex-lens{background:radial-gradient(circle at 34% 30%,#fff2a6,#f2c94c 52%,#b88427)!important;border-color:#f6d879!important;box-shadow:0 0 0 3px #f2c94c22,0 0 16px #f2c94c44!important}
+.dex-index .dex-index-active{color:#f2c94c!important;border-color:#f2c94c!important}
+.dex-index .dex-index-active i{color:#f2c94c!important}
+.tech-chip.type-fire{background:#f2c94c!important;color:#172234!important;border-color:#f2c94c!important}
+/* A quiet Pokégear signal gives the contact scene a little more life. */
+.contact-gear .gear-core{position:relative;isolation:isolate}
+.contact-gear .gear-core:before,.contact-gear .gear-core:after{content:"";position:absolute;inset:1px;border:1px solid #df4b55;border-radius:50%;pointer-events:none;z-index:0;animation:contact-beacon 3.2s ease-out infinite}
+.contact-gear .gear-core:after{animation-delay:1.6s}
+.contact-gear .gear-core .mini-ball{position:relative;z-index:1}
+@keyframes contact-beacon{0%{transform:scale(.86);opacity:.62}100%{transform:scale(2.45);opacity:0}}
+@media(prefers-reduced-motion:reduce){.contact-gear .gear-core:before,.contact-gear .gear-core:after{animation:none!important}}
