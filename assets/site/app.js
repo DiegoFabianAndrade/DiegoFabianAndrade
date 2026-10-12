@@ -64,3 +64,14 @@ async function loadGitHubStats() {
 }
 
 loadGitHubStats();
+
+
+// Open clean links at the start; keep intentional section anchors working.
+const pageNavigation = performance.getEntriesByType('navigation')[0];
+const navigationType = pageNavigation ? pageNavigation.type : 'navigate';
+history.scrollRestoration = 'manual';
+window.addEventListener('pageshow', (event) => {
+  if (!window.location.hash && !event.persisted && navigationType !== 'back_forward') {
+    window.scrollTo(0, 0);
+  }
+});
