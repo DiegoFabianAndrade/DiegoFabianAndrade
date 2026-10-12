@@ -113,3 +113,15 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 .contact-gear .gear-core .mini-ball{position:relative;z-index:1}
 @keyframes contact-beacon{0%{transform:scale(.86);opacity:.62}100%{transform:scale(2.45);opacity:0}}
 @media(prefers-reduced-motion:reduce){.contact-gear .gear-core:before,.contact-gear .gear-core:after{animation:none!important}}
+
+/* Give the link scene a small route platform and keep its signal animation alive. */
+.contact-gear:after{content:"";position:absolute;left:22%;bottom:22px;width:56%;height:26px;border:1px solid #df4b5544;border-radius:50%;box-shadow:0 0 0 8px #df4b5508;pointer-events:none}
+.contact-gear .gear-core:before,.contact-gear .gear-core:after{animation:contact-beacon 4.8s ease-out infinite}
+.contact-gear .gear-core:after{animation-delay:2.4s}
+.contact-gear .gear-core .mini-ball{animation:contact-beacon-ball 3s ease-in-out infinite!important}
+@keyframes contact-beacon-ball{0%,100%{transform:translateY(0) scale(1)}50%{transform:translateY(-4px) scale(1.04)}}
+.contact-mascot{width:148px!important;height:148px!important}
+@keyframes contact-celebi-route-mobile{0%,100%{left:3%;transform:translateY(0) scaleX(1)}43%{left:calc(97% - 148px);transform:translateY(-10px) scaleX(1)}50%{left:calc(97% - 148px);transform:translateY(-10px) scaleX(-1)}93%{left:3%;transform:translateY(0) scaleX(-1)}}
+@media(max-width:680px){.contact-mascot{width:128px!important;height:128px!important}.contact-gear:after{left:14%;width:72%;bottom:20px}}
+@keyframes contact-celebi-route-mobile{0%,100%{left:3%;transform:translateY(0) scaleX(1)}43%{left:calc(97% - 128px);transform:translateY(-8px) scaleX(1)}50%{left:calc(97% - 128px);transform:translateY(-8px) scaleX(-1)}93%{left:3%;transform:translateY(0) scaleX(-1)}}
+@media(prefers-reduced-motion:reduce){.contact-gear .gear-core:before,.contact-gear .gear-core:after,.contact-gear .gear-core .mini-ball{animation-duration:4.8s!important;animation-iteration-count:infinite!important}}
