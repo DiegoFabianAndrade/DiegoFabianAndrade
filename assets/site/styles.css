@@ -60,3 +60,24 @@ body:after{opacity:.08;background-image:radial-gradient(#fff 0.7px,transparent 1
 @media(max-width:900px){.analytics-top{grid-template-columns:1fr 1fr}.badge-metrics{grid-template-columns:repeat(4,minmax(0,1fr))}}
 @media(max-width:600px){.analytics-top{grid-template-columns:1fr}.analytics-card{padding:14px}.analytics-card-head h3{font-size:15px}.stats-widget-img{width:100%}.streak-widget-img{width:100%}.badge-metrics{grid-template-columns:repeat(4,minmax(0,1fr));gap:6px}.badge-metric{min-height:100px;padding:6px 2px}.badge-metric img{width:39px;height:39px}.badge-metric span{font-size:7px}.trophy-title{font-size:7px}.profile-trophy{padding:8px}.contact-badge{width:31px;height:31px}.badge-float-a{left:9%}.badge-float-b{right:9%}}
 @media(prefers-reduced-motion:reduce){.contact-badge,.contact-pixel-star{animation:none}}
+/* Poké Ball red, quiet routes, and a simpler animated contact scene. */:root{--red:#df4b55;--gold:#df4b55}
+
+/* Replace the aurora glow with a restrained Pokédex route-map texture. */
+body:before{background:linear-gradient(180deg,#0a1522,#09131f 72%)}
+body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:.72;background-image:radial-gradient(circle at 14% 17%,#df4b55 0 2px,transparent 2.5px),repeating-radial-gradient(ellipse at 14% 17%,transparent 0 27px,#7890a00e 28px 29px,transparent 30px 48px),radial-gradient(circle at 83% 72%,#df4b55 0 2px,transparent 2.5px),repeating-radial-gradient(ellipse at 83% 72%,transparent 0 32px,#7890a00d 33px 34px,transparent 35px 57px),linear-gradient(90deg,transparent 49.9%,#7890a008 50%,transparent 50.1%),linear-gradient(transparent 49.9%,#7890a008 50%,transparent 50.1%);background-size:auto,420px 330px,auto,480px 360px,64px 64px,64px 64px;background-position:center,0 0,center,100% 100%,0 0,0 0}
+.accent{background:none!important;background-clip:border-box!important;color:#df4b55!important;-webkit-text-fill-color:#df4b55!important}
+.button-primary,.button-primary:hover{background:#df4b55!important;color:#fff!important;box-shadow:none!important}
+.main-nav a:hover,.hero-social a:hover,.footer>a:last-child:hover,.project-link,.more-repos a,.contribution-card>a,.contact-icon,.study-cert,.id-stars,.analytics-card-head h3,.badge-metric b,.trophy-title,.achievement-chip>i{color:#df4b55!important}
+.screen-lights b:first-child,.type-electric{background:#df4b55!important}.type-electric{color:#fff!important}
+.contact-panel{background:#14243a!important;box-shadow:0 14px 36px #0003!important}.contact-panel:before{display:none!important}
+.badge-metric{background:#17283a!important}.badge-metric img,.profile-trophy img,.analytics-emblem{mix-blend-mode:multiply;filter:contrast(1.12) saturate(1.12)}
+.contact-gear{height:230px!important;overflow:hidden;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
+.contact-gear:before,.contact-gear .gear-orbit,.contact-gear .gear-spark,.contact-gear .gear-caption,.contact-gear .contact-badge,.contact-gear .contact-pixel-star,.contact-gear .contact-beam{display:none!important}
+.gear-core{width:74px!important;height:74px!important;border:0!important;background:transparent!important;box-shadow:none!important;animation:none!important}
+.gear-core .mini-ball{width:52px!important;height:52px!important;filter:none!important;animation:contact-ball-bob 2s ease-in-out infinite!important}
+.contact-mascot{left:3%!important;bottom:8px!important;width:118px!important;height:118px!important;image-rendering:pixelated;filter:drop-shadow(0 5px 8px #0008)!important;animation:contact-celebi-route 4.6s ease-in-out infinite!important}
+@keyframes contact-ball-bob{0%,100%{transform:translateY(2px) rotate(-8deg)}50%{transform:translateY(-9px) rotate(8deg)}}
+@keyframes contact-celebi-route{0%,100%{transform:translateX(0) translateY(0) scaleX(1)}43%{transform:translateX(calc(100% - 122px)) translateY(-12px) scaleX(1)}50%{transform:translateX(calc(100% - 122px)) translateY(-12px) scaleX(-1)}93%{transform:translateX(0) translateY(0) scaleX(-1)}}
+@media(max-width:680px){.contact-gear{height:205px!important}.contact-mascot{width:100px!important;height:100px!important;bottom:6px!important;animation-name:contact-celebi-route-mobile!important}.analytics-top{grid-template-columns:1fr}.badge-metrics{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@keyframes contact-celebi-route-mobile{0%,100%{transform:translateX(0) translateY(0) scaleX(1)}43%{transform:translateX(calc(100% - 104px)) translateY(-10px) scaleX(1)}50%{transform:translateX(calc(100% - 104px)) translateY(-10px) scaleX(-1)}93%{transform:translateX(0) translateY(0) scaleX(-1)}}
+@media(prefers-reduced-motion:reduce){.contact-mascot,.gear-core .mini-ball{animation:none!important}}
