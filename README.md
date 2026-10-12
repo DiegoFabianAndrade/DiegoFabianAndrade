@@ -20,7 +20,7 @@ Software Engineering student in Colombia interested in building useful products 
 
 ## Battle Arena
 
-<img src="assets/pokemon-battle.svg/pokemon-battle.svg" width="100%" alt="Auto-playing Pokémon battle scene" />
+<img src="https://raw.githubusercontent.com/DiegoFabianAndrade/DiegoFabianAndrade/9a876362049dcdb399a0a2ad760d8339298c1e97/assets/pokemon-battle.svg/pokemon-battle.svg" width="100%" alt="Auto-playing Pokémon battle scene" />
 
 </div>
 
