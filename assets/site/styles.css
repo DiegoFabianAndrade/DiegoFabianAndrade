@@ -70,7 +70,7 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 .main-nav a:hover,.hero-social a:hover,.footer>a:last-child:hover,.project-link,.more-repos a,.contribution-card>a,.contact-icon,.study-cert,.id-stars,.analytics-card-head h3,.badge-metric b,.trophy-title,.achievement-chip>i{color:#df4b55!important}
 .screen-lights b:first-child,.type-electric{background:#df4b55!important}.type-electric{color:#fff!important}
 .contact-panel{background:#14243a!important;box-shadow:0 14px 36px #0003!important}.contact-panel:before{display:none!important}
-.badge-metric{background:#17283a!important}.badge-metric img,.profile-trophy img,.analytics-emblem{mix-blend-mode:normal;filter:contrast(1.06) saturate(1.12) drop-shadow(0 2px 2px #0008)}
+.badge-metric{background:#17283a!important}.badge-metric img,.profile-trophy img,.analytics-emblem{mix-blend-mode:normal;filter:brightness(1.55) contrast(1.06) saturate(1.2) drop-shadow(0 2px 2px #0008)}
 .contact-gear{height:230px!important;overflow:hidden;border:0!important;border-radius:0!important;background:transparent!important;box-shadow:none!important}
 .contact-gear:before,.contact-gear .gear-orbit,.contact-gear .gear-spark,.contact-gear .gear-caption,.contact-gear .contact-badge,.contact-gear .contact-pixel-star,.contact-gear .contact-beam{display:none!important}
 .gear-core{width:74px!important;height:74px!important;border:0!important;background:transparent!important;box-shadow:none!important;animation:none!important}
