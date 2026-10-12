@@ -82,10 +82,10 @@ window.addEventListener('pageshow', (event) => {
   const layout=document.querySelector('.medal-layout');
   if(!layout)return;
   const user='DiegoFabianAndrade';
-  const theme='&theme=github_dark&title_color=f2c94c&icon_color=d94343&text_color=e6edf3&bg_color=101d2d';
+  const theme='&theme=github_dark&title_color=df4b55&icon_color=d94343&text_color=e6edf3&bg_color=101d2d';
   const stats='https://github-readme-stats.vercel.app/api?username='+user+'&show_icons=true&include_all_commits=true'+theme;
   const langs='https://github-readme-stats.vercel.app/api/top-langs/?username='+user+'&layout=compact'+theme;
-  const streak='https://github-readme-streak-stats.herokuapp.com/?user='+user+'&theme=dark&background=101d2d&ring=d94343&fire=f2c94c&currStreakLabel=f2c94c&sideLabels=e6edf3&border=33495e';
+  const streak='https://github-readme-streak-stats.herokuapp.com/?user='+user+'&theme=dark&background=101d2d&ring=d94343&fire=df4b55&currStreakLabel=df4b55&sideLabels=e6edf3&border=33495e';
   layout.classList.add('analytics-layout');
   layout.innerHTML=
     '<div class="analytics-top">'+
