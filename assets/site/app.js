@@ -111,3 +111,6 @@ window.addEventListener('pageshow', (event) => {
   const gear=document.querySelector('.contact-gear');
   if(gear&&!gear.querySelector('.contact-badge'))gear.insertAdjacentHTML('beforeend','<img class="contact-badge badge-float-a" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/badges/1.png" alt="Medalla Pokémon flotante"><img class="contact-badge badge-float-b" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/badges/8.png" alt="Medalla Pokémon flotante"><span class="contact-pixel-star pixel-star-a" aria-hidden="true">✦</span><span class="contact-pixel-star pixel-star-b" aria-hidden="true">✧</span><span class="contact-beam" aria-hidden="true"></span>');
 })();
+
+// The annual contribution total is already shown by the live stats card; keep the badge shelf to concrete profile metrics.
+const annualBadge=document.getElementById('metric-year');if(annualBadge)annualBadge.closest('.badge-metric').remove();
