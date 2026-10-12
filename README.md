@@ -1,236 +1,166 @@
 <div align="center">
 
-<img src="assets/gta-loadout-hud.svg" alt="Diego Andrade — animated open-world developer HUD with a technology loadout wheel" width="100%"/>
+# 🔴 DIEGO ANDRADE · TRAINER DEX
 
-[![GitHub](https://img.shields.io/badge/GitHub-DiegoFabianAndrade-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoFabianAndrade)
-[![Profile views](https://komarev.com/ghpvc/?username=DiegoFabianAndrade&style=for-the-badge&color=ff3eb5&label=PROFILE+VIEWS)](https://github.com/DiegoFabianAndrade)
+### Pokédex de proyectos · Project Pokédex
 
-**FULL-STACK DEVELOPER · AI/ML EXPLORER · TEAM BUILDER**
+<img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/25.gif" width="100" alt="Animación original de Pikachu de los juegos" />
 
-*ES 🇨🇴 / EN 🇬🇧 · Misión actual: convertir ideas en software útil.*
+**FULL-STACK · IA / MACHINE LEARNING · DESARROLLO COLABORATIVO**  
+🇨🇴 Colombia · En formación / Developer in training · **Build · Learn · Evolve**
+
+[Entrenador](#trainer-card) · [TechDex](#techdex) · [Mochila](#mochila) · [Combate](#battle) · [Rutas](#routes) · [Medallas](#medals) · [Pokégear](#pokegear)
+
+![Estado](https://img.shields.io/badge/STATUS-TRAINING-cc3344?style=for-the-badge&labelColor=18263d)
+![Visitas](https://komarev.com/ghpvc/?username=DiegoFabianAndrade&style=for-the-badge&color=f1c94a&label=VISITORS)
 
 </div>
 
 ---
 
-## 🇪🇸 Sobre mí / About me
+## 🔴 01 · Trainer card <a id="trainer-card"></a>
 
-Soy **Diego Andrade**, desarrollador en formación enfocado en **Full-stack e Inteligencia Artificial / Machine Learning**. Me gusta construir aplicaciones de extremo a extremo: interfaces web, APIs, servicios backend y prototipos que exploran cómo los modelos de IA pueden resolver problemas reales.
+**ES ·** Soy **Diego Andrade**, desarrollador en formación en Colombia. Mis repositorios muestran trabajo de extremo a extremo en aplicaciones web, APIs con Java y Python, prototipos de IA generativa y ejercicios de concurrencia y seguridad. Me interesa aprender construyendo, documentar decisiones y colaborar en equipo.
 
-- 🧩 **Full-stack:** React, TypeScript, JavaScript, HTML/CSS y herramientas modernas de frontend.
-- ☕ **Backend:** Java 21, Spring Boot, APIs REST, PostgreSQL y documentación OpenAPI/Swagger.
-- 🧠 **IA/ML:** Python, FastAPI, Transformers, PEFT/QLoRA y experimentación con modelos de lenguaje.
-- 🤝 **Colaboración:** proyectos de equipo, pull requests, documentación y mejora iterativa.
-- 🎮 **Mi HUD:** estética de videojuegos open-world, ciudades neón y referencias visuales a los clásicos de acción urbana.
-
-**EN —** I'm Diego Andrade, a developer-in-progress focused on **full-stack engineering and AI/ML**. I enjoy building end-to-end applications across web interfaces, APIs, backend services, and AI-powered prototypes. I value collaborative development, clear documentation, and learning by shipping real projects.
-
-> **MISSION / MISIÓN:** Build. Learn. Ship. Repeat.
-
-## 🎮 Select your loadout / Selecciona tu arsenal
-
-La rueda superior es una reinterpretación original del **selector radial de equipamiento de los videojuegos open-world**: cada ranura representa una herramienta de desarrollo en vez de un arma real. La estética usa un HUD, estrellas de búsqueda, radar, skyline y neón para comunicar la temática de inmediato, sin usar logotipos ni arte oficial.
-
-The animated wheel is an original **open-world game-style loadout selector**: each slot represents a developer tool rather than a real weapon. The HUD, wanted stars, radar, skyline, and neon palette make the game inspiration immediately recognizable without using official logos or artwork.
-
-## 🧰 Tech stack / Tecnologías
-
-Las insignias combinan tecnologías que aparecen en los archivos de los proyectos revisados y áreas que estoy explorando. No implican el mismo nivel de dominio en todas ellas.
-
-Badges combine technologies found in inspected project files with areas I'm exploring; they do not imply equal proficiency in every tool.
+**EN ·** I’m **Diego Andrade**, a developer in training from Colombia. My repositories show end-to-end work across web applications, Java and Python APIs, generative AI prototypes, and concurrency and security exercises. I enjoy learning by building, documenting decisions, and collaborating with a team.
 
 <div align="center">
 
-**Languages / Lenguajes**
+### Kanto Pokédex scan
 
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=222)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**Frontend / Interfaz**
-
-![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Backend / APIs**
-
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Swagger](https://img.shields.io/badge/OpenAPI%2FSwagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=222)
-![Maven](https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white)
-
-**AI / ML**
-
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=222)
-![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
-![PEFT / QLoRA](https://img.shields.io/badge/PEFT%20%2F%20QLoRA-7C3AED?style=for-the-badge&logo=ai&logoColor=white)
-
-**Workflow / Flujo de trabajo**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
-![JSON](https://img.shields.io/badge/JSONL-111827?style=for-the-badge&logo=json&logoColor=white)
+| #001 Bulbasaur | #004 Charmander | #007 Squirtle | #025 Pikachu |
+|:---:|:---:|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" width="72" alt="Bulbasaur sprite" /> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" width="72" alt="Charmander sprite" /> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png" width="72" alt="Squirtle sprite" /> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png" width="72" alt="Pikachu sprite" /> |
+| Planta · Veneno | Fuego | Agua | Eléctrico |
 
 </div>
 
-## 🚘 Featured missions / Proyectos destacados
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🧠 StyleAI — AI outfit recommender
-**[Repository ↗](https://github.com/DiegoFabianAndrade/PROYECTO-PTIA-STYLEAI-DIEGO-ANDRADE)**
-
-**ES:** Sistema de recomendación de outfits que combina gestión digital de armario, contexto climático, ocasión y preferencias. El repositorio documenta un prototipo web, un backend FastAPI, dataset sintético y experimentación con fine-tuning de LLM.
-
-**EN:** An outfit recommendation system combining a digital wardrobe, weather/context, occasion, and style preferences. The repo documents a web prototype, FastAPI backend, synthetic dataset, and LLM fine-tuning experiments.
-
-`Python` `FastAPI` `Transformers` `PEFT/QLoRA` `HTML/CSS/JS`
-
-</td>
-<td width="50%" valign="top">
-
-### ☕ BluePrints REST API — Java 21
-**[Repository ↗](https://github.com/DiegoFabianAndrade/Lab_P1_BluePrints_Java21_API_Andrade_Melo)**
-
-**ES:** Proyecto de API REST con Spring Boot, PostgreSQL, validación, seguridad y documentación OpenAPI/Swagger. El historial público incluye merges asociados a versionamiento de endpoints, persistencia, filtros y configuración Swagger.
-
-**EN:** A Java 21 REST API project using Spring Boot, PostgreSQL, validation, security, and OpenAPI/Swagger documentation. Public history includes merge commits related to API versioning, persistence, filtering, and Swagger setup.
-
-`Java 21` `Spring Boot` `REST` `PostgreSQL` `OpenAPI`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌆 Zeus Codensa — Web frontend
-**[Vite repository ↗](https://github.com/DiegoFabianAndrade/Vite_Zeuz_Codensa)** · [Team frontend repository ↗](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End)
-
-**ES:** Trabajo frontend con Vite, React y TypeScript. El historial de PR público muestra trabajo en estructura del proyecto, pantallas, landing/feed y documentación de arquitectura.
-
-**EN:** Frontend work with Vite, React, and TypeScript. Public PR history includes project structure, screens, landing/feed work, and architecture documentation.
-
-`React` `TypeScript` `Vite` `Team collaboration`
-
-</td>
-<td width="50%" valign="top">
-
-### 🐍 SnakeRace — Java 21
-**[Repository ↗](https://github.com/DiegoFabianAndrade/Lab_SnakeRace-Java21-Andrade-Melo-Parte1)**
-
-**ES:** Proyecto colaborativo en Java que refleja práctica de programación orientada a objetos y desarrollo incremental.
-
-**EN:** A collaborative Java project showcasing object-oriented programming practice and incremental development.
-
-`Java 21` `OOP` `Collaboration`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🧩 PATRICI.A — Frontend collaboration
-**[Team repository ↗](https://github.com/PATRICI-A/PATRICI.A-FRONTEND)**
-
-**ES:** Repositorio de equipo con pull requests públicos vinculados a eventos, landing page y feed. Consulta los PR enlazados abajo para revisar el alcance exacto.
-
-**EN:** Team repository with public pull requests related to events, the landing page, and feed. See the linked PRs below for the exact scope.
-
-`Frontend` `Pull requests` `Teamwork`
-
-</td>
-<td width="50%" valign="top">
-
-### 📚 More projects / Más proyectos
-- [DOSW Library](https://github.com/DiegoFabianAndrade/DOSW-Library)
-- [BITACORA DOSW](https://github.com/DiegoFabianAndrade/BITACORA_DOSW)
-- [ARSW first-cut project](https://github.com/DiegoFabianAndrade/ARSW-2026-02-ParcialPrimerCorte-DiegoFabianAndrade)
-- [Trabajo CNYT](https://github.com/DiegoFabianAndrade/Trabajo-CNYT)
-
-</td>
-</tr>
-</table>
-
-## 🤝 Verified collaboration / Colaboración verificable
-
-Revisé el historial público de pull requests que GitHub devuelve para el autor `DiegoFabianAndrade`. Encontré PRs en los repositorios de Zeus Codensa y PATRICI.A; los enlaces siguientes permiten verificar el título, los cambios y el estado en GitHub. **No asumo que todos estén fusionados ni que seas autor de todo el código de esos repositorios.**
-
-I checked the public pull-request search results for `DiegoFabianAndrade`. The following links point to PRs in the Zeus Codensa and PATRICI.A repositories. **This does not imply every PR was merged or that you authored all code in those repositories.**
-
-<details>
-<summary><b>Zeus Codensa — frontend PRs</b></summary>
-
-- [#15 — Finalización de pantallas y tareas frontend](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/15)
-- [#14 — Develop](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/14)
-- [#13 — Implementación de pantallas](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/13)
-- [#12 — Implementación de tareas frontend](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/12)
-- [#11 — Documento de arquitectura](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/11)
-- [#10 — Documento de arquitectura](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/10)
-- [#4 — Estructura del repositorio Vite frontend](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/4)
-- [#9 — Actualización del README de requerimientos (Zeus Codensa)](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa/pull/9)
-- [#5 — Configuración `application.yaml` / `pom.xml`](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa/pull/5)
-
-</details>
-
-<details>
-<summary><b>PATRICI.A — frontend PRs</b></summary>
-
-- [#36 — Feature/eventoss](https://github.com/PATRICI-A/PATRICI.A-FRONTEND/pull/36)
-- [#26 — Finalización del feed y landing page](https://github.com/PATRICI-A/PATRICI.A-FRONTEND/pull/26)
-- [#17 — Feature/landing page](https://github.com/PATRICI-A/PATRICI.A-FRONTEND/pull/17)
-
-</details>
-
-## 📊 Live stats / Estadísticas en vivo
-
-These cards are third-party, dynamically generated summaries of public GitHub data. They can be cached, and language cards measure code distribution rather than proficiency.
-
-<div align="center">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=DiegoFabianAndrade&show_icons=true&hide_border=true&bg_color=0D1117&title_color=FF3EB5&icon_color=24E5FF&text_color=E6EDF3&rank_icon=github" alt="GitHub profile statistics"/>
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoFabianAndrade&layout=compact&langs_count=8&hide_border=true&bg_color=0D1117&title_color=FF3EB5&text_color=E6EDF3" alt="Most used public repository languages"/>
-</div>
-
-<div align="center">
-<img width="82%" src="https://streak-stats.demolab.com?user=DiegoFabianAndrade&theme=transparent&hide_border=true&ring=FF3EB5&fire=FFB347&currStreakLabel=24E5FF&sideLabels=E6EDF3&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="GitHub contribution streak"/>
-</div>
-
-<div align="center">
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=DiegoFabianAndrade&bg_color=0D1117&color=E6EDF3&line=FF3EB5&point=24E5FF&area=true&hide_border=true" alt="GitHub activity graph"/>
-</div>
-
-## 🎯 Next missions / Próximas misiones
-
-- [ ] Fortalecer tests, CI/CD y despliegues de proyectos.
-- [ ] Documentar arquitectura, decisiones técnicas y resultados medibles.
-- [ ] Seguir explorando LLMs, inferencia y sistemas full-stack.
-- [ ] Compartir más demos y proyectos listos para probar.
-
-## 📡 Connect / Contacto
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/DiegoFabianAndrade)
-[![Repositories](https://img.shields.io/badge/Explore-My_Repositories-7C3AED?style=for-the-badge&logo=github)](https://github.com/DiegoFabianAndrade?tab=repositories)
-
-</div>
+*Sprites originales de los juegos servidos desde [PokeAPI/sprites](https://github.com/PokeAPI/sprites). Selección decorativa, no una declaración de favoritos.*
 
 ---
 
+## 🧬 02 · TechDex <a id="techdex"></a>
+
+Tecnologías encontradas en repositorios públicos revisados. Los tipos son una clasificación temática, **no un ranking de dominio**; su presencia indica uso documentado en proyectos, no experiencia profesional.
+
+| Entrada | Tipo | Tecnologías documentadas |
+|---|---|---|
+| **001 · Backend y APIs** | 🔥 Fuego | Java 21 · Spring Boot · Spring Security · OAuth2/JWT · Maven · Python · FastAPI · REST |
+| **002 · Interfaces** | ⚡ Eléctrico | React · TypeScript · Vite · Redux Toolkit · Zustand · Tailwind CSS · Radix UI · Framer Motion |
+| **003 · Datos** | 🪨 Roca | PostgreSQL · JPA · MongoDB · SQL · OpenAPI/Swagger |
+| **004 · IA y experimentación** | 🧠 Psíquico | Transformers · PyTorch · PEFT · QLoRA · Jupyter · datasets · inferencia de LLM |
+| **005 · Pruebas y diseño** | ✨ Hada | JUnit · Vitest · React Testing Library · JaCoCo · PMD · Sonar · PlantUML |
+| **006 · Sistemas y concurrencia** | ⚙️ Acero | Java Virtual Threads · sincronización · colecciones concurrentes · Swing · Nginx · Ghidra · GDB · análisis de tráfico y logs |
+
+---
+
+## 🎒 03 · Mochila de proyectos <a id="mochila"></a>
+
+Cada objeto abre una ruta a un proyecto real; los nombres son metáforas temáticas, no funciones adicionales del software.
+
+| Objeto | Proyecto / hallazgo |
+|---|---|
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" width="40" alt="Poké Ball item sprite" /> **Poké Ball · StyleAI** | [Asistente para recomendar atuendos](https://github.com/DiegoFabianAndrade/PROYECTO-PTIA-STYLEAI-DIEGO-ANDRADE): armario digital, preferencias y contexto; prototipo web, backend FastAPI y experimentación QLoRA/PEFT con Transformers. El README describe 500 ejemplos JSONL generados. |
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/potion.png" width="40" alt="Potion item sprite" /> **Poción · BluePrints** | [API de blueprints](https://github.com/DiegoFabianAndrade/Lab_P1_BluePrints_Java21_API_Andrade_Melo): Java 21, Spring Boot, PostgreSQL, OAuth2 Resource Server/JWT RS256 y OpenAPI; colaboración con Juan Diego Melo. |
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/bicycle.png" width="40" alt="Bicycle item sprite" /> **Bicicleta · PATRICI.A** | [Frontend de comunidad universitaria](https://github.com/DiegoFabianAndrade/PATRICI.A-FRONT-END): React, TypeScript, Vite, Tailwind, Zustand y Radix/Shadcn; vistas de feed, perfil, coincidencias y planes. |
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/escape-rope.png" width="40" alt="Escape Rope item sprite" /> **Cuerda Huida · SnakeRace** | [Carrera concurrente](https://github.com/DiegoFabianAndrade/Lab_SnakeRace-Java21-Andrade-Melo-Parte1): Java 21, virtual threads, sincronización y UI Swing; colaboración con Juan Diego Melo. |
+
+### Más rutas
+
+- **[DOSW-Library](https://github.com/DiegoFabianAndrade/DOSW-Library):** API para libros, usuarios y préstamos; Spring Boot, JPA/PostgreSQL, perfil MongoDB, JWT, roles y Swagger.
+- **[Laboratorio de seguridad](https://github.com/DiegoFabianAndrade/LAB_3_FDSI_AMADOR_ANDRADE):** hardening de Nginx, análisis de tráfico y logs, prácticas de ingeniería inversa x86-64 con Ghidra y GDB; colaboración con Felipe Amador.
+- **[ARSW · BBP de π](https://github.com/DiegoFabianAndrade/ARSW-2026-02-ParcialPrimerCorte-DiegoFabianAndrade):** cálculo paralelo de dígitos hexadecimales de π con Java.
+- **[Trabajo CNYT](https://github.com/DiegoFabianAndrade/Trabajo-CNYT):** librería Python de números complejos, operaciones, conversiones cartesiana/polar y pruebas unitarias.
+- **[Zeus Codensa · Vite](https://github.com/DiegoFabianAndrade/Vite_Zeuz_Codensa):** frontend con React, TypeScript y Vite.
+- **[Bitácora DOSW](https://github.com/DiegoFabianAndrade/BITACORA_DOSW):** notas de programación funcional, patrones de diseño, pruebas y análisis de requisitos.
+
+---
+
+## ⚔️ 04 · Battle animation <a id="battle"></a>
+
 <div align="center">
 
-*“The city is open. The next mission is yours.”*  
-*«La ciudad está abierta. La siguiente misión es tuya».*
+| Bulbasaur · animación generación V | Charmander · animación generación V |
+|:---:|:---:|
+| <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/1.gif" width="112" alt="Animated Bulbasaur game sprite" /> | <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/versions/generation-v/black-white/animated/4.gif" width="112" alt="Animated Charmander game sprite" /> |
+| **Movimiento:** construir · probar · iterar | **Encuentro:** resolver el siguiente reto |
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:ff3eb5,50:7c3aed,100:24e5ff&height=100&section=footer" width="100%" alt="Neon city-inspired gradient footer"/>
+</div>
 
-<sub>Fan-inspired visual theme. Original artwork; not affiliated with or endorsed by Rockstar Games.</sub>
+*GIF con sprites animados de los juegos desde PokeAPI/sprites; presentación decorativa.*
+
+---
+
+## 🗺️ 05 · Project routes <a id="routes"></a>
+
+**ROUTE 01 · IA aplicada** → StyleAI · **ROUTE 02 · Servicios backend** → BluePrints · **ROUTE 03 · Producto web** → PATRICI.A · **ROUTE 04 · Concurrencia** → SnakeRace. Revisa la mochila para abrir las fichas de cada proyecto.
+
+---
+
+## 🤝 06 · Trainer network
+
+Mis repositorios y PRs públicos incluyen trabajo colaborativo en Zeus Codensa y PATRICI.A. Los enlaces permiten revisar alcance y estado; no atribuyo a mi persona todo el código de esos equipos.
+
+<details><summary><b>Zeus Codensa · frontend y documentación</b></summary>
+
+- [PR #15 · Finalización de pantallas y tareas frontend](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/15)
+- [PR #14 · Develop](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/14)
+- [PR #13 · Implementación de pantallas](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/13)
+- [PR #12 · Implementación de tareas frontend](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/12)
+- [PR #11 · Documento de arquitectura](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/11)
+- [PR #10 · Documento de arquitectura](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/10)
+- [PR #4 · Estructura del repositorio Vite](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa-Front-End/pull/4)
+- [PR #9 · Actualización del README de requerimientos](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa/pull/9)
+- [PR #5 · Configuración application.yaml / pom.xml](https://github.com/Maria-Jose-Perez-Zamora/Zeus-Codensa/pull/5)
+
+</details>
+
+<details><summary><b>PATRICI.A · frontend</b></summary>
+
+- [PR #36 · Feature/eventoss](https://github.com/PATRICI-A/PATRICI.A-FRONTEND/pull/36)
+- [PR #26 · Finalización del feed y landing page](https://github.com/PATRICI-A/PATRICI.A-FRONTEND/pull/26)
+- [PR #17 · Feature/landing page](https://github.com/PATRICI-A/PATRICI.A-FRONTEND/pull/17)
+
+</details>
+
+---
+
+## 🏅 07 · Trainer medals <a id="medals"></a>
+
+🎖️ **12 PRs públicos** en tres repositorios: **7** en Zeus Codensa Front-End, **2** en Zeus Codensa y **3** en PATRICI.A. Incluyen implementación frontend, arquitectura y documentación. Medallas temáticas propias, no premios oficiales de GitHub; los enlaces permiten verificar los PRs.
+
+---
+
+## 🏆 08 · League record
+
+<div align="center">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=DiegoFabianAndrade&show_icons=true&hide_border=true&bg_color=17243b&title_color=f1c94a&icon_color=e55555&text_color=e8f2ff&rank_icon=github" alt="GitHub profile stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DiegoFabianAndrade&layout=compact&langs_count=8&hide_border=true&bg_color=17243b&title_color=f1c94a&text_color=e8f2ff" alt="Public repository languages" />
+<img width="82%" src="https://streak-stats.demolab.com?user=DiegoFabianAndrade&theme=transparent&hide_border=true&ring=e55555&fire=f1c94a&currStreakLabel=58c4dd&sideLabels=e8f2ff&dates=9aa9bf" alt="GitHub contribution streak" />
+</div>
+
+*Tarjetas externas: pueden usar caché o no estar disponibles temporalmente. El gráfico de lenguajes refleja código público, no dominio.*
+
+---
+
+## 🔄 Next evolutions
+
+- Fortalecer pruebas, CI/CD y despliegues en proyectos seleccionados.
+- Documentar arquitectura, decisiones y resultados con más demos funcionales.
+- Seguir explorando LLMs y sistemas full-stack mediante proyectos prácticos.
+
+---
+
+## 📱 Pokégear <a id="pokegear"></a>
+
+<div align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-Ver_perfil-18263d?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoFabianAndrade)
+[![Repositorios](https://img.shields.io/badge/PC-Explorar_proyectos-3976ab?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DiegoFabianAndrade?tab=repositories)
+
+**¡Gracias por visitar, entrenador! · Thanks for stopping by, Trainer!**  
+*Elige una ruta. Construye algo útil. Sigue evolucionando.*
+
+<sub>Perfil personal de fan, no afiliado ni respaldado por Nintendo, Creatures Inc., GAME FREAK inc. ni The Pokémon Company. Los nombres, personajes, diseños e imágenes de Pokémon pertenecen a sus titulares. Pokémon Support solicita no usar ni asociar su propiedad intelectual con proyectos: <a href="https://support.pokemon.com/hc/en-us/articles/360000634094-Can-I-use-Pok%C3%A9mon-images-or-materials">guía de uso de imágenes</a> · <a href="https://www.pokemon.com/uk/legal/terms-of-use">términos</a>. Sprites servidos desde <a href="https://github.com/PokeAPI/sprites">PokeAPI/sprites</a>; su licencia aclara que los derechos de las imágenes siguen perteneciendo a The Pokémon Company. La atribución identifica fuentes y titulares, pero no concede una licencia.</sub>
 
 </div>
