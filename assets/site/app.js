@@ -136,3 +136,8 @@ document.querySelectorAll('.profile-trophy img').forEach((image, index) => {
 const badgeStyle = document.createElement('style');
 badgeStyle.textContent = `.badge-metric:before{content:none!important;display:none!important}.badge-metric img{position:relative;z-index:1;width:48px;height:48px;object-fit:contain;border:0;border-radius:0;background:transparent;box-shadow:none;mix-blend-mode:normal;filter:drop-shadow(0 2px 2px #0008);image-rendering:pixelated}.analytics-emblem{object-fit:contain;filter:drop-shadow(0 2px 3px #0007)!important;mix-blend-mode:normal!important}.profile-trophy img{object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 2px 3px #0007)!important}@media(max-width:600px){.badge-metric img{width:40px;height:40px}}`;
 document.head.append(badgeStyle);
+
+
+const badgeBlendStyle = document.createElement('style');
+badgeBlendStyle.textContent = '.badge-metric img{mix-blend-mode:multiply!important;filter:contrast(1.08) saturate(1.08)!important}';
+document.head.append(badgeBlendStyle);
