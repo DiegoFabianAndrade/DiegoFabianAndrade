@@ -163,3 +163,8 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 /* Match the two achievement sprites to the cards' actual order. */
 .profile-trophy:first-of-type .trophy-gem{background-image:url('https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png')}
 .profile-trophy:nth-of-type(2) .trophy-gem{background-image:url('https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png')}
+
+/* Polish the actual GitHub achievement images used by the live profile. */
+.profile-trophy img{width:46px;height:46px;flex:0 0 46px;object-fit:contain;image-rendering:auto;mix-blend-mode:normal;filter:drop-shadow(0 3px 4px #0006);transition:transform .2s ease,filter .2s ease}
+.profile-trophy:hover img{transform:translateY(-2px) scale(1.06);filter:drop-shadow(0 5px 5px #0008)}
+@media(max-width:600px){.profile-trophy img{width:40px;height:40px;flex-basis:40px}}
