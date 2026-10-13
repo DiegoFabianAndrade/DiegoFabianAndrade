@@ -136,3 +136,30 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 
 /* Keep every remaining contact-scene animation alive for reduced-motion visitors at a gentle pace. */
 @media(prefers-reduced-motion:reduce){.contact-beam{animation-duration:4s!important;animation-iteration-count:infinite!important}.contact-gear .gear-orbit{animation-duration:28s!important;animation-iteration-count:infinite!important}.contact-gear .gear-spark{animation-duration:4s!important;animation-iteration-count:infinite!important}}
+
+
+/* Refine Pokédex interactions, GitHub badge enamel, and trainer stars. */
+.tech-chip{transition:transform .2s ease,box-shadow .2s ease,filter .2s ease}
+.tech-chip:hover{transform:translateY(-2px);filter:brightness(1.025);box-shadow:inset 0 -3px #0001,0 4px 10px #17263822}
+.tech-chip:focus-visible{outline:2px solid #df5964;outline-offset:3px;transform:translateY(-2px)}
+.id-stars{color:#f2c94c!important;text-shadow:0 0 8px #f2c94c55}
+.badge-metric:before{top:8px;width:48px;height:48px;border:2px solid #b99548;border-radius:50%;background:radial-gradient(circle at 35% 28%,#344e60 0,#20364a 58%,#142536 100%);box-shadow:inset 0 0 0 3px #17283a,inset 0 1px 4px #ffffff1c,0 2px 5px #0006}
+.badge-metric img{mix-blend-mode:normal;filter:drop-shadow(0 2px 1px #0007);transition:transform .2s ease,filter .2s ease}
+.badge-metric:hover img{transform:translateY(-2px) scale(1.05);filter:drop-shadow(0 3px 3px #0009)}
+.badge-metric:nth-child(1):before,.badge-metric:nth-child(5):before{border-color:#e6bd4f}
+.badge-metric:nth-child(2):before,.badge-metric:nth-child(6):before{border-color:#64b9ce}
+.badge-metric:nth-child(3):before,.badge-metric:nth-child(7):before{border-color:#77c69d}
+.badge-metric:nth-child(4):before,.badge-metric:nth-child(8):before{border-color:#bb8ed5}
+.profile-trophy{gap:12px;padding:12px;transition:transform .2s ease,border-color .2s ease,box-shadow .2s ease}
+.profile-trophy:hover{transform:translateY(-2px);box-shadow:0 7px 18px #0003}
+.profile-trophy .trophy-gem{width:46px;height:46px;flex:0 0 46px;border:0;border-radius:0;background-color:transparent;background-repeat:no-repeat;background-position:center;background-size:contain;box-shadow:none;font-size:0;filter:drop-shadow(0 3px 4px #0006);transition:transform .2s ease,filter .2s ease}
+.profile-trophy:nth-of-type(2) .trophy-gem{background-image:url('https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png')}
+.profile-trophy:nth-of-type(3) .trophy-gem{background-image:url('https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png')}
+.profile-trophy:hover .trophy-gem{transform:translateY(-2px) scale(1.06);filter:drop-shadow(0 5px 5px #0008)}
+.profile-trophy b{font-size:11px}
+.profile-trophy small{font-size:7px;line-height:1.5}
+@media(max-width:600px){.badge-metric:before{top:6px;width:43px;height:43px}.profile-trophy .trophy-gem{width:40px;height:40px;flex-basis:40px}}
+
+/* Match the two achievement sprites to the cards' actual order. */
+.profile-trophy:first-of-type .trophy-gem{background-image:url('https://github.githubassets.com/assets/pull-shark-bronze-a37accb528d1.png')}
+.profile-trophy:nth-of-type(2) .trophy-gem{background-image:url('https://github.githubassets.com/assets/quickdraw-default-39c6aec8ff89.png')}
