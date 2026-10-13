@@ -94,7 +94,7 @@ window.addEventListener('pageshow', (event) => {
     '</div>'+
     '<article class="analytics-card streak-panel"><header class="analytics-card-head"><div><p class="eyebrow">CONSTANCIA · ÚLTIMO AÑO</p><h3>Racha de contribuciones</h3></div><span class="live-pill"><i></i>DATOS PÚBLICOS</span></header><img class="streak-widget-img" src="'+streak+'" alt="Contribuciones totales, racha actual y racha más larga" loading="lazy"><div class="heatmap-wrap"><p class="eyebrow">MAPA DE ACTIVIDAD · ÚLTIMOS 12 MESES</p><img class="heatmap-img" src="https://ghchart.rshah.org/d94343/'+user+'" alt="Mapa anual de contribuciones de GitHub" loading="lazy"></div></article>'+
     '<article class="analytics-card themed-medals"><header class="analytics-card-head"><div><p class="eyebrow">INSIGNIAS DE ENTRENADOR</p><h3>Medallas por actividad</h3></div><span class="pokeball-mark" aria-hidden="true"></span></header><p class="medal-intro">Cada medalla representa una señal real de tu actividad pública en GitHub.</p><div class="badge-metrics">'+
-      [['Commits','commits'],['Pull requests','prs'],['Repos públicos','repos'],['Seguidores','followers'],['Estrellas','stars'],['Issues','issues'],['Lenguajes','languages'],['Aportes / año','year']].map((item,i)=>'<div class="badge-metric"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/badges/'+(i+1)+'.png" alt="Medalla Pokémon '+(i+1)+'" loading="lazy"><span>'+item[0]+'</span><b id="metric-'+item[1]+'">…</b></div>').join('')+
+      [['Commits','commits'],['Pull requests','prs'],['Repos públicos','repos'],['Seguidores','followers'],['Estrellas','stars'],['Issues','issues'],['Lenguajes','languages'],['Aportes / año','year']].map((item,i)=>'<div class="badge-metric"><span class="badge-pixel-sprite" role="img" aria-label="Medalla pixel de Hoenn '+(i+1)+'" style="--badge-position:'+(i*100/7)+'%"></span><span>'+item[0]+'</span><b id="metric-'+item[1]+'">…</b></div>').join('')+
     '</div><div class="trophy-shelf"><div class="trophy-title"><span>LOGROS VERIFICADOS</span><a href="https://github.com/'+user+'?tab=achievements">VER EN GITHUB ↗</a></div><a class="profile-trophy" href="https://github.com/'+user+'?tab=achievements"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/medal-box.png" alt="Caja de medallas de Pokémon"><span><b>Pull Shark ×2</b><small>Dos pull requests aceptados</small></span></a><a class="profile-trophy" href="https://github.com/'+user+'?tab=achievements"><img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/medal-box.png" alt="Caja de medallas de Pokémon"><span><b>Quickdraw</b><small>Respuesta rápida en una discusión</small></span></a></div><p class="stats-source">Estadísticas públicas · pueden tardar en actualizarse · <a href="https://github.com/'+user+'">GitHub ↗</a></p></article>';
   const hidden=document.createElement('div');hidden.hidden=true;hidden.innerHTML='<span id="stats-state"></span><span id="stat-stars"></span><span id="stat-repos"></span><span id="stat-followers"></span><span id="stat-languages"></span>';layout.append(hidden);
   const set=(id,value)=>{const node=document.getElementById('metric-'+id);if(node)node.textContent=value};
@@ -132,26 +132,7 @@ document.querySelectorAll('.profile-trophy img').forEach((image, index) => {
   image.alt = achievementArt[index][1];
 });
 
-// Keep the badge art crisp and remove the white circular backplates.
-const badgeStyle = document.createElement('style');
-badgeStyle.textContent = `.badge-metric:before{content:none!important;display:none!important}.badge-metric img{position:relative;z-index:1;width:48px;height:48px;object-fit:contain;border:0;border-radius:0;background:transparent;box-shadow:none;mix-blend-mode:normal;filter:drop-shadow(0 2px 2px #0008);image-rendering:pixelated}.analytics-emblem{object-fit:contain;filter:drop-shadow(0 2px 3px #0007)!important;mix-blend-mode:normal!important}.profile-trophy img{object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 2px 3px #0007)!important}@media(max-width:600px){.badge-metric img{width:40px;height:40px}}`;
-document.head.append(badgeStyle);
-
-
-const badgeBlendStyle = document.createElement('style');
-badgeBlendStyle.textContent = '.badge-metric img{mix-blend-mode:multiply!important;filter:contrast(1.08) saturate(1.08)!important}';
-document.head.append(badgeBlendStyle);
-
-
-const badgeBrightnessStyle = document.createElement('style');badgeBrightnessStyle.textContent = '.badge-metric img{filter:brightness(1.48) saturate(1.14)!important}';
-document.head.append(badgeBrightnessStyle);
-
-
-const badgeBackingStyle = document.createElement('style');
-badgeBackingStyle.textContent = '.badge-metric{position:relative!important;isolation:isolate!important}.badge-metric:before{content:""!important;display:block!important;position:absolute!important;left:50%!important;top:14px!important;transform:translateX(-50%)!important;width:50px!important;height:50px!important;border-radius:50%!important;background:#dce9c8!important;box-shadow:0 0 0 2px #536b68!important;z-index:0!important}.badge-metric img{z-index:1!important;mix-blend-mode:multiply!important;filter:contrast(1.05) saturate(1.08)!important}';
-document.head.append(badgeBackingStyle);
-
-
-const badgeSoloStyle = document.createElement('style');
-badgeSoloStyle.textContent = '.badge-metric:before{content:none!important;display:none!important}.badge-metric img{mix-blend-mode:normal!important;filter:brightness(1.08) saturate(1.08) drop-shadow(0 2px 2px #0008)!important;clip-path:circle(46% at 50% 50%)!important}';
-document.head.append(badgeSoloStyle);
+// Render original Emerald badge sprites as crisp, transparent pixel art.
+const profileMediaStyle = document.createElement('style');
+profileMediaStyle.textContent = ".badge-metric:before{content:none!important;display:none!important}.badge-pixel-sprite{display:block;flex:0 0 48px;width:48px;height:48px;margin:0 auto 4px;background-image:url('https://raw.githubusercontent.com/pret/pokeemerald/master/graphics/trainer_card/badges.png');background-repeat:no-repeat;background-size:800% 100%;background-position:var(--badge-position) center;image-rendering:pixelated;filter:drop-shadow(0 1px 0 rgba(0,0,0,.45))}.analytics-emblem{object-fit:contain;filter:drop-shadow(0 2px 3px #0007)!important;mix-blend-mode:normal!important}.profile-trophy img{object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 2px 3px #0007)!important}@media(max-width:600px){.badge-pixel-sprite{flex-basis:40px;width:40px;height:40px}}";
+document.head.append(profileMediaStyle);
