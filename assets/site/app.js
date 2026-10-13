@@ -114,3 +114,25 @@ window.addEventListener('pageshow', (event) => {
 
 // The annual contribution total is already shown by the live stats card; keep the badge shelf to concrete profile metrics.
 const annualBadge=document.getElementById('metric-year');if(annualBadge)annualBadge.closest('.badge-metric').remove();
+
+
+// Use meaningful artwork for the analytics header and verified achievements.
+const analyticsEmblem = document.querySelector('.analytics-emblem');
+if (analyticsEmblem) {
+  analyticsEmblem.src = 'assets/site/pokeball.svg';
+  analyticsEmblem.alt = 'Poké Ball';
+}
+const achievementArt = [
+  ['https://github.githubassets.com/images/modules/profile/achievements/pull-shark-default.png', 'Insignia Pull Shark de GitHub'],
+  ['https://github.githubassets.com/images/modules/profile/achievements/quickdraw-default.png', 'Insignia Quickdraw de GitHub']
+];
+document.querySelectorAll('.profile-trophy img').forEach((image, index) => {
+  if (!achievementArt[index]) return;
+  image.src = achievementArt[index][0];
+  image.alt = achievementArt[index][1];
+});
+
+// Keep the badge art crisp and remove the white circular backplates.
+const badgeStyle = document.createElement('style');
+badgeStyle.textContent = `.badge-metric:before{content:none!important;display:none!important}.badge-metric img{position:relative;z-index:1;width:48px;height:48px;object-fit:contain;border:0;border-radius:0;background:transparent;box-shadow:none;mix-blend-mode:normal;filter:drop-shadow(0 2px 2px #0008);image-rendering:pixelated}.analytics-emblem{object-fit:contain;filter:drop-shadow(0 2px 3px #0007)!important;mix-blend-mode:normal!important}.profile-trophy img{object-fit:contain;mix-blend-mode:normal;filter:drop-shadow(0 2px 3px #0007)!important}@media(max-width:600px){.badge-metric img{width:40px;height:40px}}`;
+document.head.append(badgeStyle);
