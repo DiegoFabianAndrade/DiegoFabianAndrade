@@ -141,3 +141,7 @@ document.head.append(badgeStyle);
 const badgeBlendStyle = document.createElement('style');
 badgeBlendStyle.textContent = '.badge-metric img{mix-blend-mode:multiply!important;filter:contrast(1.08) saturate(1.08)!important}';
 document.head.append(badgeBlendStyle);
+
+
+const badgeBrightnessStyle = document.createElement('style');badgeBrightnessStyle.textContent = '.badge-metric img{filter:brightness(1.48) saturate(1.14)!important}';
+document.head.append(badgeBrightnessStyle);
