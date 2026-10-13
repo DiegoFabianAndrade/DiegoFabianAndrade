@@ -150,3 +150,8 @@ document.head.append(badgeBrightnessStyle);
 const badgeBackingStyle = document.createElement('style');
 badgeBackingStyle.textContent = '.badge-metric{position:relative!important;isolation:isolate!important}.badge-metric:before{content:""!important;display:block!important;position:absolute!important;left:50%!important;top:14px!important;transform:translateX(-50%)!important;width:50px!important;height:50px!important;border-radius:50%!important;background:#dce9c8!important;box-shadow:0 0 0 2px #536b68!important;z-index:0!important}.badge-metric img{z-index:1!important;mix-blend-mode:multiply!important;filter:contrast(1.05) saturate(1.08)!important}';
 document.head.append(badgeBackingStyle);
+
+
+const badgeSoloStyle = document.createElement('style');
+badgeSoloStyle.textContent = '.badge-metric:before{content:none!important;display:none!important}.badge-metric img{mix-blend-mode:normal!important;filter:brightness(1.08) saturate(1.08) drop-shadow(0 2px 2px #0008)!important;clip-path:circle(46% at 50% 50%)!important}';
+document.head.append(badgeSoloStyle);
