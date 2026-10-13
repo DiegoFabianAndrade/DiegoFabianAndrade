@@ -129,3 +129,7 @@ body:after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opac
 
 /* Preserve a very gentle contact signal for visitors who reduce motion. */
 @media(prefers-reduced-motion:reduce){.contact-gear .gear-core:before,.contact-gear .gear-core:after{animation:contact-beacon 4.8s ease-out infinite!important}.contact-gear .gear-core:after{animation-delay:2.4s!important}.contact-gear .gear-core .mini-ball{animation:contact-beacon-ball 4.8s ease-in-out infinite!important}}
+
+
+/* Keep requested Pokémon and badge loops visible while respecting the site pause control. */
+@media(prefers-reduced-motion:reduce){.battle-mon,.project-pokemon,.party-sprites img{animation-duration:3.8s!important;animation-iteration-count:infinite!important}.battle-particle{animation-duration:3s!important;animation-iteration-count:infinite!important}.scene-halo{animation-duration:18s!important;animation-iteration-count:infinite!important}.hp-track i{animation-duration:3s!important;animation-iteration-count:infinite!important}.medal-art{animation-duration:5.5s!important;animation-iteration-count:infinite!important}.contact-mascot{animation-duration:12s!important;animation-iteration-count:infinite!important}.contact-gear .gear-core .mini-ball{animation-duration:4.8s!important;animation-iteration-count:infinite!important}.contact-gear .gear-core:before,.contact-gear .gear-core:after{animation-duration:4.8s!important;animation-iteration-count:infinite!important}}
